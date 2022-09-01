@@ -1,7 +1,7 @@
 //External imports
 import { useEffect, useRef } from 'react'
 
-  const loadScript = (src) =>
+const loadScript = (src) =>
   new Promise((resolve, reject) => {
     if (document.querySelector(`script[src="${src}"]`)) return resolve()
     const script = document.createElement('script')
@@ -28,8 +28,8 @@ const GoogleAuth = () => {
           callback: handleCredentialResponse,
         })
         google.accounts.id.renderButton(
-          googleButton.current, 
-          { theme: 'outline', size: 'large' } 
+          googleButton.current,
+          { theme: 'outline', size: 'large' }
         )
       })
       .catch(console.error)
@@ -49,9 +49,9 @@ const GoogleAuth = () => {
       <label>dddfdfdfd</label>
       <button>vdvdvdv</button>
       <table>vcdacjdbc</table>
-    <div ref={googleButton}>hgfk</div>
+
     </div>
-    
+
   )
 }
 
