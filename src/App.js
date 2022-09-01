@@ -47,7 +47,7 @@ const GoogleAuth = () => {
   return (
     <div>
       <label>dddfdfdfd</label>
-      
+      <button>vdvdvdv</button>
     <div ref={googleButton}>hgfk</div>
     </div>
     
