@@ -48,7 +48,7 @@ const GoogleAuth = () => {
     <div>
       <label>dddfdfdfd</label>
       <button>vdvdvdv</button>
-      <table>vcdacjdbc</table>
+      <table>vcdacjdbcdcdcdc</table>
 
     </div>
 
